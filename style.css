@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.top-bar{
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+}
+
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;   
+}
+ul li a{
+    text-decoration: none;
+    margin: 0 40px;
+    letter-spacing: 2px;
+    font-size: .8rem;
+    margin: 0 30px;
+    color: rgb(81, 78, 78);
+}
+
+ul li a:hover{
+    text-decoration: underline;
+}
+
+.top-bar-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.all-hotels{
+    letter-spacing: 2px;
+    font-size: .7rem;
+    margin: 0 30px;
+    color: rgb(81, 78, 78);
+}
+
+.four-seasons{
+    font-family: 'Tangerine', cursive;
+    font-size: 1.4rem;
+    margin: 0 40px;
+    color: rgb(154, 149, 149);
+}
+
+.hrline{
+    height: 1px;
+    width: 100vw;
+    background-color: rgb(207, 199, 199);
+}
+
+.vrline{
+    height: 23px;
+    width: 1px;
+    background-color: rgb(207, 199, 199);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title p{
+    font-family: 'Rokkitt', serif;
+}
+
+.title img{
+    height: 60px;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    font-size: .7rem;
+}
+.bg-box{
+    margin: 20px 0;
+    position: relative;
+}
+.bg-box img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 70vh;
+    width: 100vw;
+    margin: auto;
+}
+
+.intro{
+    color: white;
+    position: absolute;
+    right: 32%;
+    bottom: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-title{
+    font-family: 'Tangerine', cursive;
+    font-size: 1.6rem;
+    color: rgb(255, 242, 242);
+}
+
+.box-title2{
+    font-size: 3rem;
+}
+
+.tag-line{
+    font-size: 1rem;
+}
+
+.dash{
+    height: 2.5px;
+    width: 50px;
+    background-color: white;
+    margin: 10px 0;
+}
+
+.bottom-card{
+    display: flex;
+    border: 1px solid rgb(207, 199, 199);
+    padding: 20px;
+    position: absolute;
+    align-items: center;
+    background-color: white;
+    bottom: 3%;
+    right: 28.5%;
+}
+.fontweight{
+    font-weight: 1000;
+}
+.colm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+    font-weight: 600;
+    font-size: .8rem;
+}
+
+.colm label{
+    margin: 8px 0;
+}
+
+.form-select{
+    width: 60px;
+}
+
+.view-more{
+    position: absolute;
+    left: 2%;
+    bottom: 5%;
+    color: white;
+    font-weight: 500;
+}
+
+.view-more:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
